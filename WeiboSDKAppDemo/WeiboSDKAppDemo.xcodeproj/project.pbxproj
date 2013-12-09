@@ -20,7 +20,6 @@
 		2734CECA1847435000AFE8C2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2734CEC51847435000AFE8C2 /* Default@2x.png */; };
 		2734CECB1847435000AFE8C2 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2734CEC61847435000AFE8C2 /* icon.png */; };
 		2734CECC1847435000AFE8C2 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2734CEC71847435000AFE8C2 /* icon@2x.png */; };
-		2734CECE1847472400AFE8C2 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734CECD1847472400AFE8C2 /* libWeiboSDK.a */; };
 		2734CED71847475700AFE8C2 /* WeiboSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2734CED41847475700AFE8C2 /* WeiboSDK.bundle */; };
 		2734CEE4184747EE00AFE8C2 /* ShowViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2734CEDB184747EE00AFE8C2 /* ShowViewWindow.m */; };
 		2734CEE5184747EE00AFE8C2 /* UICommonCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2734CEDE184747EE00AFE8C2 /* UICommonCategory.m */; };
@@ -35,6 +34,7 @@
 		2753B0BA184C333C00035219 /* tooltar-text-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2753B0B9184C333C00035219 /* tooltar-text-bg@2x.png */; };
 		2753B0BE184C4D0800035219 /* PortraitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753B0BD184C4D0800035219 /* PortraitManager.m */; };
 		2753B0C1184C52C600035219 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753B0C0184C52C600035219 /* FileManager.m */; };
+		275B51C71855796F001D6553 /* libWeiboSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734CECD1847472400AFE8C2 /* libWeiboSDK.a */; };
 		275E1A4F185177BD00A9798C /* Business-card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275E1A4E185177BD00A9798C /* Business-card@2x.png */; };
 		275E1A511851787800A9798C /* Bulk-messaging@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 275E1A501851787800A9798C /* Bulk-messaging@2x.png */; };
 		275E1A54185181C800A9798C /* CommentPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 275E1A53185181C800A9798C /* CommentPopView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -215,7 +215,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2734CECE1847472400AFE8C2 /* libWeiboSDK.a in Frameworks */,
+				275B51C71855796F001D6553 /* libWeiboSDK.a in Frameworks */,
 				2734CE8C1847368100AFE8C2 /* CoreGraphics.framework in Frameworks */,
 				2734CE8E1847368100AFE8C2 /* UIKit.framework in Frameworks */,
 				2734CE8A1847368100AFE8C2 /* Foundation.framework in Frameworks */,
@@ -772,6 +772,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/sina/Weibo/WeiboGib/WeiboSDKAppDemo/libWeiboSDK,
+					/Users/sina/Weibo/WeiboGib/lidong3/weibo_ios_sdk/WeiboSDKAppDemo/libWeiboSDK,
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -793,6 +794,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/sina/Weibo/WeiboGib/WeiboSDKAppDemo/libWeiboSDK,
+					/Users/sina/Weibo/WeiboGib/lidong3/weibo_ios_sdk/WeiboSDKAppDemo/libWeiboSDK,
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
